@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM</h1>
+    <p id="intro">THISN IS ME <b>GGG</b></p>
+    <p id="demo"></p>
+
+    <script>
+        const element= document.getElementsById("intro");
+
+        document.getElementById("demo").innerHTML="DOM ELEMENTS:" + element.innerHTML;
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>By class name</h1>
+
+    <p>HI MY name is Sameer</p>
+
+    <p class="intro">I AM A INTERN IN AMBITION GURU</p>;
+    <p class="intro">I AM WORKING AS A WEB DEVLEPER IN AMBITION GURU.</p>
+
+    <p id="demo">
+    </p>
+
+    <script>
+        const x = document.getElementsByClassName("intro");
+        document.getElementById("demo").innerHTML= "HELLO Dewaki mam:"+ x[0].innerHTML;
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Add many handlers on event listenere</h2>
+    <p>Event listener add element</p>
+
+    <button id="myBtn">Click Me</button>
+
+    <script>
+        var x= document.getElementById("myBtn");
+        x.addEventListener("click", myFunction);
+        x.addEventListener("click", mySecondFunction);
+
+        function myFunction(){
+            alert ("Hello World");
+        }
+
+        function mySecondFunction(){
+            alert ("Second message");
+        }
+    </script>
+</body>
+</html>

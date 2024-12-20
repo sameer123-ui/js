@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>conditional statement</h2>
+    <p id="demo">Good morning</p>
+
+    <script>
+        if(new Date().getHours(),18){
+            document.getElementById("demo").innerHTML= "Good Boy";
+        }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Condition</h3>
+    <p id="demo">Good boy</p>
+
+    <script>
+        const hour= new Date().getHours()
+        let greeting;
+        if(hour<10){
+            greeting= "Good day";
+        }
+        else if(hour<20){
+            greeting= "Good Morning";
+        }
+        
+        else{
+            greeting= "Good Week";
+        }
+
+        document.getElementById("demo").innerHTML= greeting;
+        </script>
+</body>
+</html>

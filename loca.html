@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>JavaScript Local Varaible</H1>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        let text= "Outside:" + typeof carName;
+        document.getElementById("demo1").innerHTML=text;
+
+        function myFunction(){
+            let carName= "Audi";
+            let text= "Inside: " + typeof carName+ " " + carName;
+            document.getElementById("demo2").innerHTML= text;
+        }
+        myFunction();
+    </script>
+</body>
+</html>
